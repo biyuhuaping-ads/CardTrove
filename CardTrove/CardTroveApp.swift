@@ -1,9 +1,11 @@
 import SwiftUI
 import AppLovinSDK
+import AppsFlyerLib
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-//        FirebaseApp.configure()
+        AppsFlyerLib.shared().appleAppID = ""
+        AppsFlyerLib.shared().appsFlyerDevKey = ""
         return true
     }
 }
@@ -12,6 +14,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct CardTroveApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @State private var showAdPage = false
+    @Environment(\.scenePhase) private var scenePhase
 
     init() {
         let initConfig = ALSdkInitializationConfiguration(sdkKey: "LNR7IqQoTN_ruXr55ZWa_0SoWtyL65IFWSneUVVlGsv6RXs6idmUqtaf7AilM7UX_9NOyitGTFk_0prZ75JyhZ") { builder in
@@ -32,6 +35,11 @@ struct CardTroveApp: App {
                 MainTabView()
                     .onOpenURL { url in
                         handleIncomingURL(url)
+                    }
+                    .onChange(of: scenePhase) { newPhase in
+                        if newPhase == .active {// 相当于 applicationDidBecomeActive 热启动
+                            AppsFlyerLib.shared().start()
+                        }
                     }
             }
         }
